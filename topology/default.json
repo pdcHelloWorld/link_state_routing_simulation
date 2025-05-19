@@ -1,0 +1,57 @@
+{
+    "nodes": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+    ],
+    "links": [
+        {
+            "source": "A",
+            "target": "B",
+            "cost": 1
+        },
+        {
+            "source": "A",
+            "target": "C",
+            "cost": 3
+        },
+        {
+            "source": "B",
+            "target": "C",
+            "cost": 1
+        },
+        {
+            "source": "B",
+            "target": "D",
+            "cost": 5
+        },
+        {
+            "source": "C",
+            "target": "D",
+            "cost": 2
+        },
+        {
+            "source": "C",
+            "target": "E",
+            "cost": 4
+        },
+        {
+            "source": "D",
+            "target": "E",
+            "cost": 1
+        },
+        {
+            "source": "D",
+            "target": "F",
+            "cost": 2
+        },
+        {
+            "source": "E",
+            "target": "F",
+            "cost": 3
+        }
+    ]
+}
